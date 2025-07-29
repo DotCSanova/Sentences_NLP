@@ -1,0 +1,21 @@
+[project]
+name = "sentences-nlp"
+version = "0.1.0"
+description = "Prueba técnica Cambrian Intelligence. Alberto López Casanova"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.6",
+    "pandas>=2.3.1",
+    "scikit-learn>=1.7.1",
+    "seaborn>=0.13.2",
+    "sentence-transformers>=5.0.0",
+    "spacy>=3.8.7",
+    "wordcloud>=1.9.4",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.0",
+]
