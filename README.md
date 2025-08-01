@@ -1,13 +1,13 @@
 # Análisis de Frases con Procesamiento de Lenguaje Natural (NLP)
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto implementa un análisis completo de un dataset de 100 frases descriptivas en inglés utilizando técnicas avanzadas de Procesamiento de Lenguaje Natural (NLP). El análisis incluye tanto aspectos estructurales como semánticos, demostrando el uso de modelos de transformers modernos para tareas de comprensión de texto.
 
 **Autor:** Alberto López Casanova  
 **Proyecto:** Prueba técnica para Cambrian Intelligence
 
-## 🎯 Tareas Realizadas
+## Tareas Realizadas
 
 ### 1. **Análisis Exploratorio de Datos (EDA)**
 - Carga y visualización inicial del dataset
@@ -33,7 +33,7 @@ Este proyecto implementa un análisis completo de un dataset de 100 frases descr
 - Búsqueda de frases más similares a una consulta dada
 - Demostración práctica con consultas de ejemplo
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Python 3.10+**
 - **spaCy** - Análisis gramatical y estructural
@@ -43,7 +43,7 @@ Este proyecto implementa un análisis completo de un dataset de 100 frases descr
 - **matplotlib & seaborn** - Visualización de datos
 - **torch** - Pytorch
 
-## 📦 Instalación
+## Instalación
 
 ### Prerrequisitos
 - Python 3.10 o superior
@@ -67,7 +67,7 @@ Este proyecto implementa un análisis completo de un dataset de 100 frases descr
    uv run -- spacy download en_core_web_trf
    ```
 
-## 🚀 Uso
+## Uso
 
 ### Ejecutar el Notebook
 ```bash
@@ -84,7 +84,7 @@ Sentences_NLP/
 └── uv.lock             # Archivo de bloqueo de dependencias
 ```
 
-## 📊 Resultados Principales
+## Resultados Principales
 
 ### Análisis Estructural
 - **Longitud promedio:** 11.49 palabras por frase
@@ -122,7 +122,7 @@ source .venv/bin/activate  # Linux/Mac
 .venv\Scripts\activate     # Windows
 ```
 
-## 📈 Características Destacadas
+## Características Destacadas
 
 - **Análisis NLP:** Combina análisis estructural y semántico
 - **Modelos modernos:** Utiliza transformers para embeddings semánticos
@@ -130,7 +130,7 @@ source .venv/bin/activate  # Linux/Mac
 - **Código reproducible:** Notebook estructurado con explicaciones detalladas
 - **Gestión de dependencias:** Configuración optimizada con uv
 
-## 📝 Licencia
+## Licencia
 
 Este proyecto es parte de una prueba técnica para Cambrian Intelligence.
 
