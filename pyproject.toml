@@ -5,6 +5,7 @@ description = "Prueba técnica Cambrian Intelligence. Alberto López Casanova"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "curated-tokenizers>=2.0.0",
     "matplotlib>=3.10.3",
     "nbformat>=5.10.4",
     "numpy>=2.2.6",

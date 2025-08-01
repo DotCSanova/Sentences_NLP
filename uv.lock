@@ -439,6 +439,32 @@ wheels = [
 ]
 
 [[package]]
+name = "curated-tokenizers"
+version = "2.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "regex" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/73/22/23b6fe4e15a788405a64304067ca46ff104283f9c3ff9608b4b5be7fac48/curated_tokenizers-2.0.0.tar.gz", hash = "sha256:0a8f8c527bc93a6404ec0ba8f0df215b8c205edc81a05617fbbe705438804094", size = 2262541, upload-time = "2024-04-15T17:19:32.449Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/9d/41/2e2523b258b98755a911171434878dfc61cac54b13abc6943e417b5542ba/curated_tokenizers-2.0.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:55a565b40ddd04a127e7367ebdcb560a61699350e41586c2642481ec1d6b1964", size = 773936, upload-time = "2024-04-15T17:18:50.982Z" },
+    { url = "https://files.pythonhosted.org/packages/02/6b/2b8774b6a86fb7be3a52a96d23ba1cb751a82adad0a2c0e71a2acd3ae7ff/curated_tokenizers-2.0.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:73a77d9ef4619f51fc043b76a8ff6845e7fc908d09fbdbd68043ca9dcfe8a597", size = 741825, upload-time = "2024-04-15T17:18:53.425Z" },
+    { url = "https://files.pythonhosted.org/packages/27/4b/7ac743f1cdf94bfa99bff9d4d2873bfa997c881ba00f9e77ec0405a083b0/curated_tokenizers-2.0.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a04525e89b00e163a03caa942b2a2ac8c7b97258057f51f0bb16f8f3c652bae8", size = 745685, upload-time = "2024-04-15T17:18:54.812Z" },
+    { url = "https://files.pythonhosted.org/packages/69/ff/f66937ceb5bae34da4f119f260e35066bc683989075252127187599691f6/curated_tokenizers-2.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c15dbf7bdf1fe0f4d2d94c8a10c7cf36c420e195d32022b1b26062fd4c61c28e", size = 772765, upload-time = "2024-04-15T17:18:56.921Z" },
+    { url = "https://files.pythonhosted.org/packages/38/52/10d6f8f3ec94ee8d27dc9cf028c792de12a4466beb1eb8c1cb750b32ef0f/curated_tokenizers-2.0.0-cp310-cp310-win_amd64.whl", hash = "sha256:d21af1ec57faac43f3c0214878a6805abb6a56123e75ab5f011babf4cc9cfd9c", size = 760716, upload-time = "2024-04-15T17:18:59.112Z" },
+    { url = "https://files.pythonhosted.org/packages/c4/80/360e34d47922eb70226eeb02b946b48194c1bf41721427880be5b520aa74/curated_tokenizers-2.0.0-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:fef8dcc273845ca24e3f3eb8ac53a4b4a45cf1a4e64d1a89370bdc95a02e8fb0", size = 774599, upload-time = "2024-04-15T17:19:01.195Z" },
+    { url = "https://files.pythonhosted.org/packages/b3/73/58be1d08b7738ba76db1f1cd499d9bb8e72c06a89e7d2d9dac2b80605b4e/curated_tokenizers-2.0.0-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:dbad2c2f40f81e9d720f8c272843b786f906712582f39d338a42a361f6b4856e", size = 741957, upload-time = "2024-04-15T17:19:03.465Z" },
+    { url = "https://files.pythonhosted.org/packages/7c/ca/0e606ecb19e6938416815ce5a9e0090fe508cb0a1c6c1389686fc2272b19/curated_tokenizers-2.0.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:563fc87e930aa466295cc0dc44697e369559b896db94453702693133c5abbbb8", size = 749625, upload-time = "2024-04-15T17:19:06.047Z" },
+    { url = "https://files.pythonhosted.org/packages/3b/5e/ecc43ae53535add247556b4768c78ab1895b0f2712901744c851b3ad3dca/curated_tokenizers-2.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:51d0d86094eb863995c6eb5d0990a064e840c9a7e273358fa4596f7958593d93", size = 776886, upload-time = "2024-04-15T17:19:07.986Z" },
+    { url = "https://files.pythonhosted.org/packages/2b/61/41dc572a610e84b0f87a335f146acd21da6eed646f93bd9c8a27cc99fbfe/curated_tokenizers-2.0.0-cp311-cp311-win_amd64.whl", hash = "sha256:6d56eb806a791b5818cbccdf22fffe39c07eff2f2dd1a32b94f11792c646d343", size = 760906, upload-time = "2024-04-15T17:19:09.823Z" },
+    { url = "https://files.pythonhosted.org/packages/4c/13/5788a0b18c126c85b6a44102df6d61e9f991ac15491b3922b73f3447516e/curated_tokenizers-2.0.0-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:480f702afd1d0c53d44f8aaef08f379d769d2894c469777d5d0f9030179f21d4", size = 775049, upload-time = "2024-04-15T17:19:11.791Z" },
+    { url = "https://files.pythonhosted.org/packages/90/e8/4b5a4f8774f59badf1bc4fadc3ba2aa27b07308556cabe10bd7ab70a6de3/curated_tokenizers-2.0.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:99562bbb36e6ec54f6a6cc41c73a2adb8002ec723c2670dcfcb2eee7f384f8a5", size = 741438, upload-time = "2024-04-15T17:19:13.837Z" },
+    { url = "https://files.pythonhosted.org/packages/a7/4f/f39fb03f8d43e1c7c7dd16523cce711d7b92f83ba2772ceb7a34e235fad6/curated_tokenizers-2.0.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6122c8db5f239189fd4703047315adf3d623a45922bf15cbeb9970bf5833b8f4", size = 746414, upload-time = "2024-04-15T17:19:15.884Z" },
+    { url = "https://files.pythonhosted.org/packages/fe/33/0ce2cad39bdcaa8eeda2a7de7ce4613ea6f5c540d5accf0fbe51c9f5253c/curated_tokenizers-2.0.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9b948d299157c317474d7c2c325b073187c6123c5c520b299603548781b8b98a", size = 775230, upload-time = "2024-04-15T17:19:17.874Z" },
+    { url = "https://files.pythonhosted.org/packages/bd/f2/6e9b2915e031f7b6e377bccc8399dab151cc90ef2f1c6f14cce743321fc2/curated_tokenizers-2.0.0-cp312-cp312-win_amd64.whl", hash = "sha256:32a6e98498f694bcc3c8b3a752f8cb3327b9001d605974d399ceacf66920f37d", size = 761307, upload-time = "2024-04-15T17:19:19.746Z" },
+]
+
+[[package]]
 name = "cycler"
 version = "0.12.1"
 source = { registry = "https://pypi.org/simple" }
@@ -2565,6 +2591,7 @@ name = "sentences-nlp"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "curated-tokenizers" },
     { name = "matplotlib" },
     { name = "nbformat" },
     { name = "numpy", version = "2.2.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
@@ -2586,6 +2613,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "curated-tokenizers", specifier = ">=2.0.0" },
     { name = "matplotlib", specifier = ">=3.10.3" },
     { name = "nbformat", specifier = ">=5.10.4" },
     { name = "numpy", specifier = ">=2.2.6" },
