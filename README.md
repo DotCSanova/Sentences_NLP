@@ -101,7 +101,7 @@ Sentences_NLP/
 2. **Búsqueda semántica** para encontrar frases similares
 3. **Análisis de outliers** estructurales y semánticos
 
-## 🔧 Configuración del Entorno
+## Configuración del Entorno
 
 El proyecto utiliza `uv` como gestor de paquetes, que ofrece:
 - **Instalación rápida** de dependencias
